@@ -1,0 +1,96 @@
+html {
+    background-image: url(/Pictures/bckgrnd2.jpg);
+}
+
+.focusbox {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 1000px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0;
+}
+
+#valtozo {
+    width: 900px;
+    height: 100%;
+}
+
+#leftarrow {
+    height: 40px;
+    width: 40px;
+    transform: rotate(0.25turn);
+    
+}
+
+#rightarrow {
+    height: 40px;
+    width: 40px;
+    transform: rotate(0.75turn);
+    
+}
+
+button {
+    width: 50px;
+    padding: 0 0 0 0;
+}
+
+.bigpic {
+    position: relative;
+}
+
+.textbox {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(37, 37, 37, 0.808);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 860px;
+    height: 100px;
+}
+
+.thumbnails {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 800px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.smallpic {
+    width: 100px;
+    height: 80px;
+    margin: 0 0 0 0;  
+}
+
+
+.thumbButton {
+    width: 110px;
+    height: 90px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    border: 3px solid rgb(185, 184, 184);
+    border-radius:  3px;
+    box-shadow: 0 4px 8px 0;
+    background: rgb(73, 73, 73);
+    padding: 0 0 0 0;
+}
+
+.thumbButton:hover {
+    width: 130px;
+    height: 100px;
+}
+
+.smallpic:hover {
+    width: 120px;
+    height: 90px;
+    margin: 0 0 0 0;  
+}
